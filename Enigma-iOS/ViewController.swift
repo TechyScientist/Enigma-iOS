@@ -43,6 +43,28 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
     }
 
+    @IBAction func onKeyPressed(_ sender: UIButton!) {
+        clearLamps()
+        let key = sender.titleLabel!.text!
+        let lamp = findLamp(key)
+        lamp?.textColor = UIColor.systemYellow
+    }
+    
+    private func clearLamps() {
+        lamps.forEach { lamp in
+            lamp.textColor = UIColor.systemGray2
+        }
+    }
+    
+    private func findLamp(_ letter: String) -> UILabel? {
+        var theLamp: UILabel?
+        lamps.forEach { lamp in
+            if lamp.text! == letter {
+                     theLamp = lamp
+            }
+        }
+        return theLamp
+    }
 
 }
 

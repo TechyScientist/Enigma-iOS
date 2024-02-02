@@ -205,6 +205,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Q">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sbJ-FH-7Md"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLK-0T-UeL">
                                                 <rect key="frame" x="78.5" y="0.0" width="47.5" height="44"/>
@@ -212,6 +215,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="W">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ycA-jD-mws"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjI-Vq-3yN">
                                                 <rect key="frame" x="157" y="0.0" width="47.5" height="44"/>
@@ -219,6 +225,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="E">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z65-vy-Z8g"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kny-2S-M11">
                                                 <rect key="frame" x="235.5" y="0.0" width="47.5" height="44"/>
@@ -226,6 +235,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="R">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BwU-nu-iCz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpn-vp-nwQ">
                                                 <rect key="frame" x="314" y="0.0" width="47.5" height="44"/>
@@ -233,6 +245,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="T">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fai-Mr-eEN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRN-ao-t44">
                                                 <rect key="frame" x="392.5" y="0.0" width="47.5" height="44"/>
@@ -240,6 +255,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Y">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1eT-v1-0lb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx0-Ab-rUp">
                                                 <rect key="frame" x="471" y="0.0" width="47.5" height="44"/>
@@ -247,6 +265,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="U">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ik-Th-jH5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1t-0L-Wbq">
                                                 <rect key="frame" x="549.5" y="0.0" width="47.5" height="44"/>
@@ -254,6 +275,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="I">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s0B-zP-wyD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfH-xi-3O0">
                                                 <rect key="frame" x="628" y="0.0" width="47.5" height="44"/>
@@ -261,6 +285,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="O">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sKz-DE-5dk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gq9-Wh-ibW">
                                                 <rect key="frame" x="706.5" y="0.0" width="47.5" height="44"/>
@@ -268,6 +295,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="P">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OHT-gX-0B8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -280,6 +310,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="A">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t8m-Zy-R4L"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxt-Xl-tds">
                                                 <rect key="frame" x="73" y="0.0" width="42" height="44"/>
@@ -287,6 +320,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="S">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vFz-qn-Nk5"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eve-Am-Xht">
                                                 <rect key="frame" x="146" y="0.0" width="42" height="44"/>
@@ -294,6 +330,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="D">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KMd-7b-s2J"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBr-st-4qC">
                                                 <rect key="frame" x="219" y="0.0" width="42" height="44"/>
@@ -301,6 +340,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="F">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0R7-Tt-oS2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFn-0S-X0w">
                                                 <rect key="frame" x="292" y="0.0" width="42" height="44"/>
@@ -308,6 +350,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="G">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PdF-Y9-5YV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naH-Gp-C5V">
                                                 <rect key="frame" x="365" y="0.0" width="42" height="44"/>
@@ -315,6 +360,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="H">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pmg-eN-Byh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyU-ch-KTI">
                                                 <rect key="frame" x="438" y="0.0" width="42" height="44"/>
@@ -322,6 +370,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="J">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bDT-cv-AHi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8D-sW-IFq">
                                                 <rect key="frame" x="511" y="0.0" width="42" height="44"/>
@@ -329,6 +380,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="K">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4en-iP-zIi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V15-Yq-xaD">
                                                 <rect key="frame" x="584" y="0.0" width="42" height="44"/>
@@ -336,6 +390,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="L">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ea1-ML-EXb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -348,6 +405,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Z">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzI-W5-pT0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csG-mx-40Q">
                                                 <rect key="frame" x="76.5" y="0.0" width="45.5" height="44"/>
@@ -355,6 +415,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="X">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N0l-bX-VQz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPP-2d-vjp">
                                                 <rect key="frame" x="153" y="0.0" width="45.5" height="44"/>
@@ -362,6 +425,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="C">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pzh-R3-nzQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEc-07-078">
                                                 <rect key="frame" x="229.5" y="0.0" width="45.5" height="44"/>
@@ -369,6 +435,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="V">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4rj-Ku-91n"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGM-4D-nOR">
                                                 <rect key="frame" x="306" y="0.0" width="45.5" height="44"/>
@@ -376,6 +445,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="B">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lfi-dz-eCu"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnR-ji-6dB">
                                                 <rect key="frame" x="382.5" y="0.0" width="45.5" height="44"/>
@@ -383,6 +455,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="N">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="78q-fE-vbS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZD-sT-hGm">
                                                 <rect key="frame" x="459" y="0.0" width="45.5" height="44"/>
@@ -390,6 +465,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="M">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onKeyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIp-2M-je1"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
