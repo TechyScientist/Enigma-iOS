@@ -506,6 +506,9 @@
                                 <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing">
                                     <imageReference key="image" image="gearshape" catalog="system" symbolScale="large"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="0jb-Cu-DaC" kind="presentation" id="48f-LX-npN"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -569,6 +572,82 @@
             </objects>
             <point key="canvasLocation" x="847.31707317073165" y="-34.067796610169495"/>
         </scene>
+        <!--Enigma Settings View Controller-->
+        <scene sceneID="FnP-BZ-DQA">
+            <objects>
+                <viewController id="Voh-Ro-azt" customClass="EnigmaSettingsViewController" customModule="Enigma_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zaC-rg-hnn">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yXW-kU-BAN">
+                                <rect key="frame" x="40" y="96" width="394.5" height="216"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotors:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zk-iU-geW">
+                                        <rect key="frame" x="0.0" y="98" width="54.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Uw-Rr-Yh7">
+                                        <rect key="frame" x="75" y="0.0" width="320" height="216"/>
+                                    </pickerView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="604-5R-qF2">
+                                <rect key="frame" x="40" y="320" width="387" height="216"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rings:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eok-mv-k5m">
+                                        <rect key="frame" x="0.0" y="98" width="47" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6l-61-EQs">
+                                        <rect key="frame" x="67" y="0.0" width="320" height="216"/>
+                                    </pickerView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-mp-kBY">
+                                <rect key="frame" x="40" y="544" width="414" height="216"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reflector:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWm-kl-9wM">
+                                        <rect key="frame" x="0.0" y="98" width="74" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4MA-xm-aNM">
+                                        <rect key="frame" x="94" y="0.0" width="320" height="216"/>
+                                    </pickerView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="w2u-WX-NHn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yXW-kU-BAN" firstAttribute="leading" secondItem="w2u-WX-NHn" secondAttribute="leading" constant="40" id="5F0-Yw-cYX"/>
+                            <constraint firstItem="zrZ-mp-kBY" firstAttribute="leading" secondItem="w2u-WX-NHn" secondAttribute="leading" constant="40" id="EqW-6r-2te"/>
+                            <constraint firstItem="yXW-kU-BAN" firstAttribute="top" secondItem="w2u-WX-NHn" secondAttribute="top" constant="40" id="TMR-dd-4b2"/>
+                            <constraint firstItem="604-5R-qF2" firstAttribute="top" secondItem="yXW-kU-BAN" secondAttribute="bottom" constant="8" symbolic="YES" id="cXU-vT-r02"/>
+                            <constraint firstItem="zrZ-mp-kBY" firstAttribute="top" secondItem="604-5R-qF2" secondAttribute="bottom" constant="8" symbolic="YES" id="cht-6B-7hS"/>
+                            <constraint firstItem="604-5R-qF2" firstAttribute="leading" secondItem="w2u-WX-NHn" secondAttribute="leading" constant="40" id="neF-ig-gHi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yw2-DL-qEt">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ow6-dQ-h2V">
+                            <color key="tintColor" systemColor="systemRedColor"/>
+                            <connections>
+                                <action selector="cancel" destination="Voh-Ro-azt" id="KKR-fq-kT9"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="6H7-5y-8Mx"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59V-k0-mlw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2342.1951219512193" y="-34.067796610169495"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="QOj-HT-qcJ">
             <objects>
@@ -587,6 +666,25 @@
             </objects>
             <point key="canvasLocation" x="90.731707317073173" y="-34.067796610169495"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qYW-EW-Jyq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0jb-Cu-DaC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="NxP-Kq-u7O"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RAy-IO-gqF">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Voh-Ro-azt" kind="relationship" relationship="rootViewController" id="G0o-06-Kux"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xuk-e0-0G1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585.6097560975609" y="-34.067796610169495"/>
+        </scene>
     </scenes>
     <resources>
         <image name="gearshape" catalog="system" width="128" height="123"/>
@@ -595,6 +693,9 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
