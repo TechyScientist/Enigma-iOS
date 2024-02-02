@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0913FEBA2B6D3295004D235F /* Enigma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enigma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0913FEBA2B6D3295004D235F /* Enigma-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enigma-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0913FEBD2B6D3295004D235F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0913FEBF2B6D3295004D235F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0913FEC12B6D3295004D235F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		0913FEB12B6D3295004D235F = {
 			isa = PBXGroup;
 			children = (
-				0913FEBC2B6D3295004D235F /* Enigma */,
+				0913FEBC2B6D3295004D235F /* Enigma-iOS */,
 				0913FEBB2B6D3295004D235F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		0913FEBB2B6D3295004D235F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0913FEBA2B6D3295004D235F /* Enigma.app */,
+				0913FEBA2B6D3295004D235F /* Enigma-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0913FEBC2B6D3295004D235F /* Enigma */ = {
+		0913FEBC2B6D3295004D235F /* Enigma-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				0913FEBD2B6D3295004D235F /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				0913FEC82B6D3296004D235F /* LaunchScreen.storyboard */,
 				0913FECB2B6D3296004D235F /* Info.plist */,
 			);
-			path = Enigma;
+			path = "Enigma-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0913FEB92B6D3295004D235F /* Enigma */ = {
+		0913FEB92B6D3295004D235F /* Enigma-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0913FECE2B6D3296004D235F /* Build configuration list for PBXNativeTarget "Enigma" */;
+			buildConfigurationList = 0913FECE2B6D3296004D235F /* Build configuration list for PBXNativeTarget "Enigma-iOS" */;
 			buildPhases = (
 				0913FEB62B6D3295004D235F /* Sources */,
 				0913FEB72B6D3295004D235F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Enigma;
+			name = "Enigma-iOS";
 			productName = Enigma;
-			productReference = 0913FEBA2B6D3295004D235F /* Enigma.app */;
+			productReference = 0913FEBA2B6D3295004D235F /* Enigma-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0913FEB52B6D3295004D235F /* Build configuration list for PBXProject "Enigma" */;
+			buildConfigurationList = 0913FEB52B6D3295004D235F /* Build configuration list for PBXProject "Enigma-iOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0913FEB92B6D3295004D235F /* Enigma */,
+				0913FEB92B6D3295004D235F /* Enigma-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0913FEB52B6D3295004D235F /* Build configuration list for PBXProject "Enigma" */ = {
+		0913FEB52B6D3295004D235F /* Build configuration list for PBXProject "Enigma-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0913FECC2B6D3296004D235F /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0913FECE2B6D3296004D235F /* Build configuration list for PBXNativeTarget "Enigma" */ = {
+		0913FECE2B6D3296004D235F /* Build configuration list for PBXNativeTarget "Enigma-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0913FECF2B6D3296004D235F /* Debug */,
