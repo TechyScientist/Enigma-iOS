@@ -590,7 +590,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Uw-Rr-Yh7">
-                                        <rect key="frame" x="75" y="0.0" width="320" height="216"/>
+                                        <rect key="frame" x="74.5" y="0.0" width="320" height="216"/>
                                     </pickerView>
                                 </subviews>
                             </stackView>
@@ -635,8 +635,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yw2-DL-qEt">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ow6-dQ-h2V">
-                            <color key="tintColor" systemColor="systemRedColor"/>
+                        <barButtonItem key="leftBarButtonItem" image="chevron.left" catalog="system" id="ow6-dQ-h2V">
                             <connections>
                                 <action selector="cancel" destination="Voh-Ro-azt" id="KKR-fq-kT9"/>
                             </connections>
@@ -687,15 +686,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chevron.left" catalog="system" width="97" height="128"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
