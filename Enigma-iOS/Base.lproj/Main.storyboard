@@ -572,7 +572,7 @@
             </objects>
             <point key="canvasLocation" x="847.31707317073165" y="-34.067796610169495"/>
         </scene>
-        <!--Enigma Settings View Controller-->
+        <!--Enigma Settings-->
         <scene sceneID="FnP-BZ-DQA">
             <objects>
                 <viewController id="Voh-Ro-azt" customClass="EnigmaSettingsViewController" customModule="Enigma_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -591,6 +591,10 @@
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Uw-Rr-Yh7">
                                         <rect key="frame" x="74.5" y="0.0" width="320" height="216"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="Voh-Ro-azt" id="iTe-yH-shG"/>
+                                            <outlet property="delegate" destination="Voh-Ro-azt" id="axK-dF-SgD"/>
+                                        </connections>
                                     </pickerView>
                                 </subviews>
                             </stackView>
@@ -605,11 +609,15 @@
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6l-61-EQs">
                                         <rect key="frame" x="67" y="0.0" width="320" height="216"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="Voh-Ro-azt" id="9tv-Vo-FWA"/>
+                                            <outlet property="delegate" destination="Voh-Ro-azt" id="y70-Nq-i4P"/>
+                                        </connections>
                                     </pickerView>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-mp-kBY">
-                                <rect key="frame" x="40" y="544" width="414" height="216"/>
+                                <rect key="frame" x="40" y="544" width="201" height="216"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reflector:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWm-kl-9wM">
                                         <rect key="frame" x="0.0" y="98" width="74" height="20.5"/>
@@ -618,7 +626,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4MA-xm-aNM">
-                                        <rect key="frame" x="94" y="0.0" width="320" height="216"/>
+                                        <rect key="frame" x="94" y="0.0" width="107" height="216"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="107" id="cpx-Jg-9oX"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="Voh-Ro-azt" id="vdg-ku-eJ5"/>
+                                            <outlet property="delegate" destination="Voh-Ro-azt" id="GYA-Cb-ER5"/>
+                                        </connections>
                                     </pickerView>
                                 </subviews>
                             </stackView>
@@ -634,14 +649,20 @@
                             <constraint firstItem="604-5R-qF2" firstAttribute="leading" secondItem="w2u-WX-NHn" secondAttribute="leading" constant="40" id="neF-ig-gHi"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="yw2-DL-qEt">
-                        <barButtonItem key="leftBarButtonItem" image="chevron.left" catalog="system" id="ow6-dQ-h2V">
+                    <navigationItem key="navigationItem" title="Enigma Settings" id="yw2-DL-qEt">
+                        <barButtonItem key="leftBarButtonItem" id="ow6-dQ-h2V">
+                            <imageReference key="image" image="chevron.left" catalog="system" symbolScale="large"/>
                             <connections>
                                 <action selector="cancel" destination="Voh-Ro-azt" id="KKR-fq-kT9"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="6H7-5y-8Mx"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="reflector" destination="4MA-xm-aNM" id="aKQ-cK-ShN"/>
+                        <outlet property="rings" destination="k6l-61-EQs" id="har-6T-WXD"/>
+                        <outlet property="rotors" destination="7Uw-Rr-Yh7" id="Mtc-Jb-8DJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="59V-k0-mlw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -668,6 +689,7 @@
         <!--Navigation Controller-->
         <scene sceneID="qYW-EW-Jyq">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xuk-e0-0G1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0jb-Cu-DaC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="NxP-Kq-u7O"/>
@@ -680,7 +702,6 @@
                         <segue destination="Voh-Ro-azt" kind="relationship" relationship="rootViewController" id="G0o-06-Kux"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xuk-e0-0G1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1585.6097560975609" y="-34.067796610169495"/>
         </scene>
